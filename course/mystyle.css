@@ -1,0 +1,538 @@
+/*========================================================================*/
+
+
+
+/* ///////////////////////////////////////////////////////////////////// 
+// 03 - Preloader
+/////////////////////////////////////////////////////////////////////*/
+
+#preloader {
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:99999999999;
+    width:100%;
+    height:100%;
+    overflow:visible;
+    background: #fff url('portifolio/img/preloader.gif') no-repeat center center;
+}
+
+
+
+
+
+/* ==========================================================================
+	Global Styles
+========================================================================== */
+*{
+	margin:0px;
+	padding:0px;
+}
+h2{
+	color:#1ce;
+	font-family:san
+}
+
+
+#topheader{
+	position:fixed;
+	width:100%;
+	background:#000;
+	margin:0px;
+	
+}
+.logoimagebox{
+	margin-top:20px;
+	margin-left:0px;
+	position:relative;
+	width:200px;
+	height:30px;
+	background:#;
+	float:left;
+}
+.logo{
+	font-family:helvetica;
+	font-size:16px;
+	font-weight:bolder;
+	margin-left:12px;
+	letter-spacing:0px;
+	color:#f1f1f1;
+	width:100%;
+}
+.logolink{
+	text-decoration:none;
+	color:#cacaca;
+	letter-spacing:1px;
+}
+.academylogo1{
+	padding-right:0px;
+	margin:0px;
+	width:100px;
+	float:left;
+}
+.logobox{
+	margin-right:0px;
+}
+.academylogo2{
+	margin:10px;
+	width:30px;
+	float:right;
+	z-index:+2;
+}
+nav{
+	float:right;
+	margin-right:5px;
+	padding: 10px 2px;
+	
+	
+}
+
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:;
+	font:helvetica;
+
+	
+}
+li{
+	float:left;
+	font-size:12px;
+}
+li a{
+	display:block;
+	color:#cacaca;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	font-family:helvetica;
+	
+}
+li a:hover{
+	background-color:#;
+	color:green;
+}
+a.active{
+	background:#1f1;
+	color:white;
+	border-radius:25px;
+	letter-spacing:1px;
+}
+a.active1{
+	background:#1f1;
+	color:#f1f1f1;
+	border-radius:25px;
+	letter-spacing:1px;
+	 border:0px solid #cacaca;
+	
+}
+.btn{
+	color:#1ce;
+	margin-left:10px;
+	text-decoration:none;
+}
+.Dstyle{
+	border-left:1px solid orange;;
+	
+}
+#maincontainer{
+	margin:0 auto;
+	position:relative;
+	width:1000px;
+	
+	
+}
+
+#boxheader1{
+	width:100%;
+	height:500px;
+	background-image:url("imagess/efe.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+	
+	
+	
+}
+.frontbox{
+	width:100%;
+	background:#;
+	height:230px;
+	margin:0 auto;
+}
+.frontlink{
+	margin:20px;
+	text-align:center;
+}
+h1{
+	padding-top:160px;
+	font-size:50px;
+	text-align:center;
+	color:#1f1;
+	font-family:arial;
+	line-height:80px;
+	
+}
+h3{
+	text-align:center;
+	color:rgba(000 234 0.4);
+	font-family:helvetica;
+	font-size:20px;
+	
+}
+.applylink{
+
+	
+	position:relative;
+	margin:40px;
+	
+}
+.applylink a{
+	color:white;
+	text-decoration:none;
+	
+}
+#boxheader2{
+	width:100%;
+	height:250px;
+	background:#fff;
+	/*background-repeat:no-repeat;
+	background-position:cover;
+	background-size:cover;*/
+	
+}
+
+.mainbox{
+	width:800px	;
+	height:300px;
+	background:#fff;
+	margin:0 auto;
+	
+	
+}
+.mainbox5{
+	width:800px	;
+	height:700px;
+	background:#fff;
+	margin:0 auto;
+	
+	
+}
+.leftbar{
+	width:250px;
+	height:100px;
+	float:left;
+	margin-top:20px;
+	font-family:helvetica;
+	font-size:16px;
+	padding:7px;
+}
+.mainboxtitle{
+	color:black;
+	font-size:18px;
+	margin:5px;
+	font-family:helvetica, arial;
+	font-weight:bolder;
+}
+.mainboxtext{
+	font-size:12px;
+	color:#a1a1a1;
+	line-height:20px;
+	margin:2px;
+	padding:3px;
+	width:250px;
+}
+.rightbar{
+	width:250px;
+	height:100px;
+	float:right; 
+	margin-top:20px;
+	font-family:helvetica;
+	font-size:16px;
+	padding:7px;
+}
+.mission{
+	width:800px;
+	height:400px;
+	background:#fff;
+	position:relative;
+	margin:0 auto;
+	z-index:-1;
+}
+.missionleft{
+	float:left;
+	width:450px;
+	height:360px;
+	position:relative;
+	background:#fff;
+	margin:15px;
+	
+}
+.speakermale{
+	width:450px;
+	height:360px;
+}
+.missionright{
+	float:right;
+	width:300px;
+	height:200px;
+	position:relative;
+	background:#fff;
+	padding-top:40px;
+	margin-top:40px;
+	
+}
+.missionboxtext{
+	padding:10px;
+	color:#a1a1a1;
+	line-height:25px;
+	font-family:helvetica;
+}
+
+.longline{
+	width:100%;
+	margin:0 auto;
+}
+#boxheader4{
+	width:100%;
+	height:700px;
+	background:#fff;
+	
+	/*background-repeat:no-repeat;
+	background-position:cover;
+	background-size:cover;*/
+	
+	
+}
+
+.promainbox{
+	width:100%;
+	height:700px;
+	background:#fff;
+	/*background-image:url("hack (2).jpg");
+	background-repeat:no-repeat;
+	background-position:cover;
+	background-size:cover;*/
+	margin:0 auto;
+	
+	
+}
+.titlepage{
+	width:100%;
+	height:25px;
+	background:#2345678;
+	font-family:helvetica;
+	font-size:22px;
+	margin:5px;
+}
+.proheader{
+	width:100%;
+	height:50px;
+	background:#efc;
+}
+.proheader4{
+	width:1000px;
+	height:250px;
+	background:#aad;
+	margin:0 auto;
+	position:relative;
+}
+.proheader5{
+	width:500px;
+	height:250px;
+	background:#aaa;
+	margin:5px;
+	float:left;
+}
+.proheader6{
+	width:275px;
+	height:250px;
+	background:#aff;
+	margin:5px;
+	float:right;
+}
+.proheadering{
+	width:400px;
+	margin:1px;
+}
+.proheadering1{
+	width:450px;
+	margin:1px;
+}
+
+
+.headerboxinfo{
+	position:relative;
+	width:900px;
+	height:300px;
+	margin:0 auto;
+}
+#header{
+	
+	width:100%;
+	height:100px;
+	/*background-image:url("screenbck.jpg");
+	background-repeat:no-repeat;
+	background-position:cover;
+	background-size:cover;*/
+	background:#f1f1f1;
+	
+}
+
+
+
+.motto{
+	font:helvetica;
+	font-size:18px;
+	color:#f1f1f1;
+	margin:5px;
+	
+	
+	
+}
+.nav2{
+	background:#123456;
+	width:100%;
+	
+}
+.navinside2{
+	width:800px;
+	margin:0 auto;
+	position:relative;
+	
+}
+.nav2list{
+	list-style:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:;
+	font:helvetica;
+	
+}
+.nav2list li{
+	
+}
+
+
+/*
+.departments{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	width:200px;
+	background:f1f1f1;
+	
+}
+li{
+	float:left;
+}
+	display:block;
+	color:#000;
+	padding:8px 16px;
+	text-decoration:none;
+	
+}
+li a:hover{
+	background-color:#555;
+	color:white;
+}*/
+#hero{
+	width:100%;
+	height:450px;
+	background:#cacaca;
+	background-image:url("hack (4).jpg");
+	background-repeat:no-repeat;
+	background-position:cover;
+	background-size:cover;
+}
+.herobox{
+	position:relative;
+	width:1000px;
+	left:50px;
+	top:100px;
+	
+	
+}
+#recentpost{
+	width:100%;
+	height:600px;
+	background:#ccc;
+}
+.recentbox{
+	width:100%;
+	height:400px;
+	background:#fff;
+	margin:0px;
+}
+.textpointbox{
+	width:100%;
+	height:200px;
+	background:#fff;
+	
+}
+.textpoint1{
+	font-family:helvetica;
+	font-size:18px;
+	padding:10px;
+}
+
+
+
+.coverimg{
+	width:500px;
+	margin-top:0px;
+}
+.coverimg1{
+	float:left;
+	width:300px;
+	
+}
+#courses{
+	width:100%;
+	height:450px;
+	background:#cef;
+}
+/* ==========================================================================Services========================================================================== */
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+footer{
+	background:#123456;
+	color:#fff;
+	height:300px;
+}
